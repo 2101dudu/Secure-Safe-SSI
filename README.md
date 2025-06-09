@@ -1,4 +1,6 @@
-# Projeto SSI - Cofre Seguro
+<h1 align="center">Secure Safe<img align="center" src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" target="_blank" title="python" alt="python" width="50" height="50"/></h1>
+<h1 align="center">Final Grade: 18/20💫</h1>
+
 
 Realizado por:
 - a104353 - [Eduardo Faria](https://github.com/2101dudu)

@@ -1,0 +1,58 @@
+
+
+
+================================
+Server run on 2025-05-06 11:31:04
+================================
+
+[INFO] [2025-05-06 11:31:04] server.py:<module>:1232 - Server is running on VERBOSE mode
+[INFO] [2025-05-06 11:31:04] server.py:run_server:1173 - Starting with a new dataset
+[WARNING] [2025-05-06 11:31:04] server.py:run_server:1176 - Keystore file vault_sv.p12 not found
+[SUCCESS] [2025-05-06 11:31:04] server.py:run_server:1178 - Keystore file created at p12/vault_sv.p12
+[INFO] [2025-05-06 11:31:04] server.py:run_server:1186 - Serving on ('127.0.0.1', 7777)
+[INFO] [2025-05-06 11:31:04] server.py:run_server:1188 -   (type ^C to finish)
+[INFO] [2025-05-06 11:31:29] server.py:handle_echo:1137 - New user 'dudu' registered
+[WARNING] [2025-05-06 11:31:49] server.py:trigger_alert:176 - Decryption error: 
+[WARNING] [2025-05-06 11:31:49] server.py:trigger_alert:176 - Decryption error: 
+[WARNING] [2025-05-06 11:31:49] server.py:trigger_alert:176 - Decryption error: 
+[WARNING] [2025-05-06 11:31:49] server.py:trigger_alert:176 - Decryption error: 
+[WARNING] [2025-05-06 11:32:01] server.py:trigger_alert:176 - Decryption error: 
+[INFO] [2025-05-06 11:32:01] server.py:handle_echo:1148 - Connection closed by ('127.0.0.1', 59152)
+[INFO] [2025-05-06 11:32:01] server.py:shutdown_connection:1050 - Closing connection with ('127.0.0.1', 59152)
+[SUCCESS] [2025-05-06 11:32:01] server.py:shutdown_connection:1054 - Connection with ('127.0.0.1', 59152) has been successfully closed
+[INFO] [2025-05-06 11:32:21] server.py:handle_echo:1139 - User 'dudu' is already known
+[INFO] [2025-05-06 11:32:30] server.py:handle_echo:1148 - Connection closed by ('127.0.0.1', 59156)
+[INFO] [2025-05-06 11:32:30] server.py:shutdown_connection:1050 - Closing connection with ('127.0.0.1', 59156)
+[SUCCESS] [2025-05-06 11:32:30] server.py:shutdown_connection:1054 - Connection with ('127.0.0.1', 59156) has been successfully closed
+[INFO] [2025-05-06 11:32:45] server.py:handle_echo:1139 - User 'dudu' is already known
+[SUCCESS] [2025-05-06 11:32:48] server.py:trigger_alert:178 - File sample.txt (whose file ID is 0) was added to the server by dudu
+[INFO] [2025-05-06 11:32:53] server.py:handle_read:257 - dudu wants to read file 0
+[SUCCESS] [2025-05-06 11:33:03] server.py:trigger_alert:178 - Group Ola Mundo was created by dudu and has ID 0
+[SUCCESS] [2025-05-06 11:33:14] server.py:trigger_alert:178 - File ca.crt (whose file ID is 1) was shared with group 0 by dudu
+[INFO] [2025-05-06 11:33:17] server.py:handle_read:257 - dudu wants to read file 1
+[INFO] [2025-05-06 11:33:21] server.py:handle_echo:1148 - Connection closed by ('127.0.0.1', 59158)
+[INFO] [2025-05-06 11:33:21] server.py:shutdown_connection:1050 - Closing connection with ('127.0.0.1', 59158)
+[SUCCESS] [2025-05-06 11:33:21] server.py:shutdown_connection:1054 - Connection with ('127.0.0.1', 59158) has been successfully closed
+[SUCCESS] [2025-05-06 11:33:33] server.py:save_to_db:74 - Data saved to out/db.bin
+[SUCCESS] [2025-05-06 11:33:33] server.py:run_server:1198 - Finished!
+
+
+
+================================
+Server run on 2025-05-06 11:33:59
+================================
+
+[INFO] [2025-05-06 11:33:59] server.py:<module>:1232 - Server is running on VERBOSE mode
+[INFO] [2025-05-06 11:33:59] server.py:run_server:1173 - Starting with a new dataset
+[INFO] [2025-05-06 11:33:59] server.py:run_server:1186 - Serving on ('127.0.0.1', 7777)
+[INFO] [2025-05-06 11:33:59] server.py:run_server:1188 -   (type ^C to finish)
+[INFO] [2025-05-06 11:34:06] server.py:handle_echo:1137 - New user 'dudu' registered
+[WARNING] [2025-05-06 11:34:11] server.py:trigger_alert:176 - Decryption error: 
+[WARNING] [2025-05-06 11:34:11] server.py:trigger_alert:176 - Decryption error: 
+[WARNING] [2025-05-06 11:34:11] server.py:trigger_alert:176 - Decryption error: 
+[WARNING] [2025-05-06 11:34:11] server.py:trigger_alert:176 - Decryption error: 
+[INFO] [2025-05-06 11:34:13] server.py:handle_echo:1148 - Connection closed by ('127.0.0.1', 59164)
+[INFO] [2025-05-06 11:34:13] server.py:shutdown_connection:1050 - Closing connection with ('127.0.0.1', 59164)
+[SUCCESS] [2025-05-06 11:34:13] server.py:shutdown_connection:1054 - Connection with ('127.0.0.1', 59164) has been successfully closed
+[SUCCESS] [2025-05-06 11:34:17] server.py:save_to_db:74 - Data saved to out/db.bin
+[SUCCESS] [2025-05-06 11:34:17] server.py:run_server:1198 - Finished!
